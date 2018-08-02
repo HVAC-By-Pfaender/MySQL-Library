@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>MySql_Query (FB) &mdash; MySQL Library SL V1.1.0.0</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Functions" href="../OiiodjWs8NGoUILHXkTjE-yEB94/fld-Functions.html" />
+    <link rel="prev" title="MySQL_Open (FB)" href="mysql-open.html" />
+    <link href="../_static/style.css" rel="stylesheet" type="text/css">
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> MySQL Library SL
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../vslZxmbhpyzzLy-cAzkrEOlNbDA/fld-MySQL-Library.html">MySQL Library</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../mSm7qJjkTQRG12L6HEs4gUf3dsw/fld-Enums.html">Enums</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../Vf7M0rjm1YZX8feiyUobCPMxv-4/fld-Function-Blocks.html">Function Blocks</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="fld-public.html">public</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="mysql-close.html">MySQL_Close (FB)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mysql-connection.html">MySQL_ConnectionString (FB)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mysql-exec.html">MySQL_Exec (FB)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mysql-open.html">MySQL_Open (FB)</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">MySql_Query (FB)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../OiiodjWs8NGoUILHXkTjE-yEB94/fld-Functions.html">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../f9NTLJI0BwvBsAjrIdhBd1psGkY/fld-Structs.html">Structs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vslZxmbhpyzzLy-cAzkrEOlNbDA/gc-mysql-paramet.html">gc_MySQL_Parameter (PARAMS)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../info.html">File and Project Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../libraries.html">Library Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">MySQL Library SL</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../vslZxmbhpyzzLy-cAzkrEOlNbDA/fld-MySQL-Library.html">MySQL Library</a> &raquo;</li>
+        
+          <li><a href="../Vf7M0rjm1YZX8feiyUobCPMxv-4/fld-Function-Blocks.html">Function Blocks</a> &raquo;</li>
+        
+          <li><a href="fld-public.html">public</a> &raquo;</li>
+        
+      <li>MySql_Query (FB)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <span class="target" id="fld-mysql-library-fld-function-blocks-fld-public-mysql-query"></span><div class="section" id="mysql-query-fb">
+<span id="mysql-query"></span><span id="index-0"></span><h1>MySql_Query (FB)<a class="headerlink" href="#mysql-query-fb" title="Permalink to this headline">¶</a></h1>
+<p>FUNCTION_BLOCK MySql_Query EXTENDS CBM.ETrig</p>
+<p><strong>Short Description:</strong></p>
+<p>This function block executes a MySQL command with results like SELECT, etc.</p>
+<p><strong>Detailed Description:</strong></p>
+<p>The MySQL commands needs to be built with an array. The length of the array is defined by the GLOBAL CONSTANTS.
+The FBox is built on the common behavior model “Etrig” so, you are able to handle and see the current process state within your application.</p>
+<p><strong>Info about MySQL_Command:</strong></p>
+<p>Non-Numeric SQL parameter values must be marked with a quote (apostrophe = ‘).
+To use an apostrophe inside a CODESYS String you need do declare it with an dollar char + apostrophe’ ($) or with $27.</p>
+<p>e.g:</p>
+<p>MySQL_Command[0] := &#8216;SELECT * FROM table WHERE name =&#8217;</p>
+<p>MySQL_Command[1] := &#8216;$27nonNumberValue$27 &#8216;;</p>
+<p><strong>Caution:</strong> Maximum length for identifiers are 250 bytes and for field data 500 bytes,</p>
+<dl class="docutils">
+<dt>InOut:</dt>
+<dd><table border="1" class="first last docutils">
+<colgroup>
+<col width="4%" />
+<col width="9%" />
+<col width="18%" />
+<col width="61%" />
+<col width="8%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Scope</th>
+<th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Comment</th>
+<th class="head">Inherited from</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Input</td>
+<td>xExecute</td>
+<td>BOOL</td>
+<td><dl class="first last docutils">
+<dt>Rising edge: Action start</dt>
+<dd>Falling edge: Resets outputs
+If a falling edge occurs before the function block has completed its action, the outputs operate
+in the usual manner and are only reset if either the action is completed or
+in the event of an error. In this case, the corresponding output values (xDone, xError, iError)
+are present at the outputs for exactly one cycle.</dd>
+</dl>
+</td>
+<td>ETrig</td>
+</tr>
+<tr class="row-odd"><td rowspan="3">Output</td>
+<td>xDone</td>
+<td>BOOL</td>
+<td>Action successfully completed</td>
+<td>ETrig</td>
+</tr>
+<tr class="row-even"><td>xBusy</td>
+<td>BOOL</td>
+<td>Function block active</td>
+<td>ETrig</td>
+</tr>
+<tr class="row-odd"><td>xError</td>
+<td>BOOL</td>
+<td><dl class="first last docutils">
+<dt>TRUE: error occurred, function block aborts action</dt>
+<dd>FALSE: no error</dd>
+</dl>
+</td>
+<td>ETrig</td>
+</tr>
+<tr class="row-even"><td>Input</td>
+<td>MySQL_Command</td>
+<td>ARRAY
+[0..gc_MySQL_iStatementMax]
+OF
+STRING(gc_MySQL_iStatementLength)</td>
+<td>MySQL command</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td rowspan="2">Inout</td>
+<td>MySQL_Connection</td>
+<td><a class="reference internal" href="mysql-connection.html#mysql-connectionstring"><span class="std std-ref">MySQL_ConnectionString</span></a></td>
+<td>MySQL connection string which holds the server and login
+information</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>stResultSet</td>
+<td><a class="reference internal" href="../f9NTLJI0BwvBsAjrIdhBd1psGkY/mysql-dataset.html#mysql-dataset"><span class="std std-ref">MySQL_DataSet</span></a></td>
+<td>Query result</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td rowspan="2">Output</td>
+<td>eError</td>
+<td><a class="reference internal" href="../84g8lCoYRL52O5rdULYTLw7EsaU/error1.html#error"><span class="std std-ref">ERROR</span></a></td>
+<td>Error type</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>sExecute_State</td>
+<td>STRING(200)</td>
+<td>Current execute state</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../OiiodjWs8NGoUILHXkTjE-yEB94/fld-Functions.html" class="btn btn-neutral float-right" title="Functions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="mysql-open.html" class="btn btn-neutral" title="MySQL_Open (FB)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.1.0.0',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: ''
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>gc_MySQL_Parameter (PARAMS) &mdash; MySQL Library SL V1.1.0.0</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="File and Project Information" href="../info.html" />
+    <link rel="prev" title="MySQL_ServerInfo (STRUCT)" href="../f9NTLJI0BwvBsAjrIdhBd1psGkY/mysql-serverinfo.html" />
+    <link href="../_static/style.css" rel="stylesheet" type="text/css">
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> MySQL Library SL
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="fld-MySQL-Library.html">MySQL Library</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../mSm7qJjkTQRG12L6HEs4gUf3dsw/fld-Enums.html">Enums</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vf7M0rjm1YZX8feiyUobCPMxv-4/fld-Function-Blocks.html">Function Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../OiiodjWs8NGoUILHXkTjE-yEB94/fld-Functions.html">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../f9NTLJI0BwvBsAjrIdhBd1psGkY/fld-Structs.html">Structs</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">gc_MySQL_Parameter (PARAMS)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../info.html">File and Project Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../libraries.html">Library Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">MySQL Library SL</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="fld-MySQL-Library.html">MySQL Library</a> &raquo;</li>
+        
+      <li>gc_MySQL_Parameter (PARAMS)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gc-mysql-parameter-params">
+<span id="gc-mysql-parameter"></span><span id="fld-mysql-library-gc-mysql-parameter"></span><h1>gc_MySQL_Parameter (PARAMS)<a class="headerlink" href="#gc-mysql-parameter-params" title="Permalink to this headline">¶</a></h1>
+<p><em>Short Description:*</em></p>
+<blockquote>
+<div>Global parameter constants.</div></blockquote>
+<p><strong>Detailed Description:</strong></p>
+<blockquote>
+<div>This parameters can be changed for configure optional settings. Please only change the parameters, if you know what you do.
+The default parameters are tested and are for best practise use.</div></blockquote>
+<dl class="docutils">
+<dt>InOut:</dt>
+<dd><table border="1" class="first last docutils">
+<colgroup>
+<col width="7%" />
+<col width="38%" />
+<col width="7%" />
+<col width="8%" />
+<col width="41%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Scope</th>
+<th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Initial</th>
+<th class="head">Comment</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td rowspan="15">Constant</td>
+<td><p class="first last" id="gc-mysql-parameter-gc-mysql-wclientflag">gc_MySQL_wClientFlag</p>
+</td>
+<td>__XWORD</td>
+<td>16#8601</td>
+<td>Used in: MySQL_Open | Desc: Client Flag  | Default: 16#8601</td>
+</tr>
+<tr class="row-odd"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-wextclientflag">gc_MySQL_wExtClientFlag</p>
+</td>
+<td>__XWORD</td>
+<td>16#3</td>
+<td>Used in: MySQL_Open | Desc: Extended Client Flag (For More
+Information see documentation | Default:</td>
+</tr>
+<tr class="row-even"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-dwmaxpackets">gc_MySQL_dwMaxPackets</p>
+</td>
+<td>__XWORD</td>
+<td>1024</td>
+<td>Used in: MySQL_Open | Desc: Number of maximum bytes in a
+client packet | Default: 1024</td>
+</tr>
+<tr class="row-odd"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-tconntimeout">gc_MySQL_tConnTimeOut</p>
+</td>
+<td>TIME</td>
+<td>TIME#10s0ms</td>
+<td>Used in: MySQL_Open, MySQL_Close | Desc: Timeout for Open
+and Close Process | Default: 10 Sec</td>
+</tr>
+<tr class="row-even"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-istatementmax">gc_MySQL_iStatementMax</p>
+</td>
+<td>INT</td>
+<td>10</td>
+<td>Used in: MySQL_Exec, MySQL_Query | Desc: Upper Bound of the
+arrSQLStatement | Default: 10</td>
+</tr>
+<tr class="row-odd"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-istatementlength">gc_MySQL_iStatementLength</p>
+</td>
+<td>INT</td>
+<td>100</td>
+<td>Used in: MySQL_Exec, MySQL_Query | Desc: Size in Bytes of
+the arrSQLStatement | Default: 100</td>
+</tr>
+<tr class="row-even"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-xcleardataset">gc_MySQL_xClearDataSet</p>
+</td>
+<td>BOOL</td>
+<td>FALSE</td>
+<td>Used in: MySQL_Query | Desc: Clear Result Set before Use
+(Caution: needs a lot of cycles) | Default: FALSE</td>
+</tr>
+<tr class="row-odd"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-treceiveresponsetime">gc_MySQL_tReceiveResponseTime</p>
+</td>
+<td>TIME</td>
+<td>TIME#50ms</td>
+<td>Used in: MySQL_Query | Desc: Wait time before processing
+received response data (Info: expand this value for slow
+Servers) | Default: 50MS</td>
+</tr>
+<tr class="row-even"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-dwmaxcolumns">gc_MySQL_dwMaxColumns</p>
+</td>
+<td>__XWORD</td>
+<td>25</td>
+<td>Used in: MySQL_DataSet | Desc: Number of maximum columns
+which can be processed | Default: 25 columns</td>
+</tr>
+<tr class="row-odd"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-dwmaxrows">gc_MySQL_dwMaxRows</p>
+</td>
+<td>__XWORD</td>
+<td>40</td>
+<td>Used in: MySQL_DataSet | Desc: Number of maximum rows which
+can be processed | Default: 40 rows</td>
+</tr>
+<tr class="row-even"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-dwmaxrowsize">gc_MySQL_dwMaxRowSize</p>
+</td>
+<td>__XWORD</td>
+<td>500</td>
+<td>Used in: MySQL_DataSet | Desc: Maximum lenght in bytes of
+one row which can be processed | Default: 500 bytes</td>
+</tr>
+<tr class="row-odd"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-dwtxbuffersize">gc_MySQL_dwTxBufferSize</p>
+</td>
+<td>__XWORD</td>
+<td>8000</td>
+<td>Used in: MySQL_ConnectionString | Desc: Transmit Buffer Size
+| Default: 8000</td>
+</tr>
+<tr class="row-even"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-dwrxbuffersize">gc_MySQL_dwRxBufferSize</p>
+</td>
+<td>__XWORD</td>
+<td>40000</td>
+<td>Used in: MySQL_ConnectionString | Desc: Receive Buffer Size
+| Default 40000</td>
+</tr>
+<tr class="row-odd"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-bcharsetnumber">gc_MySQL_bCharsetNumber</p>
+</td>
+<td>BYTE</td>
+<td>16#8</td>
+<td>Used in: MySQL_GetStringValue | Desc: Character Set |
+Default: 16#08 for Latin1</td>
+</tr>
+<tr class="row-even"><td><p class="first last" id="gc-mysql-parameter-gc-mysql-dwmaxcolumnnamelength">gc_MySQL_dwMaxColumnNameLength</p>
+</td>
+<td>__XWORD</td>
+<td>80</td>
+<td>Used in: &lt;PRIVATE&gt; | Desc: Maximum lenght of a column name
+in bytes | Default: 80</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../info.html" class="btn btn-neutral float-right" title="File and Project Information" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../f9NTLJI0BwvBsAjrIdhBd1psGkY/mysql-serverinfo.html" class="btn btn-neutral" title="MySQL_ServerInfo (STRUCT)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.1.0.0',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: ''
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
